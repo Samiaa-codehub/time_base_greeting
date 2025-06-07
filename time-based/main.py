@@ -70,7 +70,7 @@ def get_greeting() -> str:
         return "Good morning"
     elif 12 <= current_hour < 18:
         return "Good afternoon"
-    elif 18 <= current_hour < 22:
+    elif 18 <= current_hour < 20:
         return "Good evening"
     else:
         return "Good night"
